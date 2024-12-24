@@ -16,7 +16,7 @@ function EditorPanel() {
   const [isShareDialogOpen, setIsShareDialogOpen] = useState(false);
   const { language, theme, fontSize, editor, setFontSize, setEditor } =
     useCodeEditorStore();
-
+ 
   const mounted = useMounted();
 
   useEffect(() => {
